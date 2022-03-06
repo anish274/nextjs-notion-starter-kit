@@ -6,7 +6,7 @@ export const CustomFont: React.FC<{ site: types.Site }> = ({ site }) => {
   if (!site.fontFamily) {
     return null
   }
-
+  
   // https://developers.google.com/fonts/docs/css2
   const fontFamilies = [site.fontFamily]
   const googleFontFamilies = fontFamilies

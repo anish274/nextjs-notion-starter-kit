@@ -1,0 +1,24 @@
+/**
+ * This is custom file to override your own themeing for Notion elements
+ * 
+ */
+
+.notion-page-cover {
+  max-width: 100%;
+  border-radius: 0px;
+  box-shadow: 2px 2px 8px 4px rgba(15, 15, 15, 0.1);
+}
+
+.index-page {
+  --notion-max-width: 100%;
+}
+
+.notion-page-has-cover.notion-page-no-icon {
+  padding-top:32px;
+}
+@media only screen and (max-width: 1200px) {
+  .notion-page-cover {
+    border-radius: 0;
+  }
+}
+

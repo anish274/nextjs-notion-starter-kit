@@ -7,17 +7,17 @@ module.exports = {
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'anish shah',
-  domain: 'in10.in',
-  author: 'Anish Shah',
+  name: 'Effective Productivity in 10 minutes',
+  domain: 'notionin10.vercel.app',
+  author: 'in10.in',
 
   // open graph metadata (optional)
-  description: 'Example site description',
-  socialImageTitle: 'AAAAAAA',
-  socialImageSubtitle: 'Hello World! 👋',
+  description: 'Effective Productivity in 10 minutes',
+  socialImageTitle: 'in10.in',
+  socialImageSubtitle: 'in10.in',
 
   // social usernames (optional)
-  //twitter: 'transitive_bs',
+  twitter: 'notionin10',
   //github: 'transitive-bullshit',
   //linkedin: 'fisch2',
 
@@ -47,5 +47,5 @@ module.exports = {
   //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   // }
-  pageUrlOverrides: null
+  pageUrlOverrides: null,
 }
